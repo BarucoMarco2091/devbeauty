@@ -1,0 +1,25 @@
+@import '../styles/variables.scss';
+
+@media (width >= 1024px) {
+    .about {
+        display: flex;
+        flex-direction: row !important;
+        padding: 5dvh 5dvh;
+
+        div {
+            flex: 1;
+        }
+
+        .our-history {
+            margin-right: 3dvh;
+        }
+    }
+}
+
+@media (width >= 1024px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
+        gap: 3dvh;
+    }
+}
