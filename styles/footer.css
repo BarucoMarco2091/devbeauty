@@ -14,6 +14,22 @@
   }
 }
 @media (width >= 1024px) {
+  header {
+    position: relative;
+  }
+}
+@media (width >= 1024px) {
+  .hero {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+  }
+  .hero h1 {
+    text-align: center;
+    color: #F5F5F5;
+  }
+}
+@media (width >= 1024px) {
   .about {
     display: flex;
     flex-direction: row !important;

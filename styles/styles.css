@@ -26,6 +26,22 @@
   }
 }
 @media (width >= 1024px) {
+  header {
+    position: relative;
+  }
+}
+@media (width >= 1024px) {
+  .hero {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+  }
+  .hero h1 {
+    text-align: center;
+    color: #F5F5F5;
+  }
+}
+@media (width >= 1024px) {
   .about {
     display: flex;
     flex-direction: row !important;
@@ -90,6 +106,22 @@ footer .footer-container .footer-info p {
 @media screen and (max-width: 600px) {
   #mobile_btn {
     display: block !important;
+  }
+}
+@media (width >= 1024px) {
+  header {
+    position: relative;
+  }
+}
+@media (width >= 1024px) {
+  .hero {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+  }
+  .hero h1 {
+    text-align: center;
+    color: #F5F5F5;
   }
 }
 @media (width >= 1024px) {
@@ -198,13 +230,13 @@ header img {
   filter: brightness(50%);
 }
 header .hero {
-  position: absolute;
-  bottom: 50%;
-  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 header .hero h1 {
   text-align: center;
-  color: #F5F5F5;
 }
 
 @media screen and (max-width: 600px) {
@@ -216,6 +248,22 @@ header .hero h1 {
 @media screen and (max-width: 600px) {
   #mobile_btn {
     display: block !important;
+  }
+}
+@media (width >= 1024px) {
+  header {
+    position: relative;
+  }
+}
+@media (width >= 1024px) {
+  .hero {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+  }
+  .hero h1 {
+    text-align: center;
+    color: #F5F5F5;
   }
 }
 @media (width >= 1024px) {
@@ -369,6 +417,22 @@ main .testimonials .grid .card .card-body .card-description {
 @media screen and (max-width: 600px) {
   #mobile_btn {
     display: block !important;
+  }
+}
+@media (width >= 1024px) {
+  header {
+    position: relative;
+  }
+}
+@media (width >= 1024px) {
+  .hero {
+    position: absolute;
+    bottom: 50%;
+    left: 25%;
+  }
+  .hero h1 {
+    text-align: center;
+    color: #F5F5F5;
   }
 }
 @media (width >= 1024px) {
